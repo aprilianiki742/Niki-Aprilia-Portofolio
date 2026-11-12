@@ -1,0 +1,166 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Latar belakang abu-abu muda */
+body {
+    background-color: #e2e8f0;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header dengan dominasi biru gelap & abu-abu kebiruan */
+.hero {
+    background: linear-gradient(135deg, #1e3a8a, #334155);
+    color: #f8fafc;
+    text-align: center;
+    padding: 55px 20px;
+    border-bottom: 5px solid #2563eb;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #94a3b8;
+    margin-bottom: 15px;
+    background-color: #cbd5e1;
+}
+
+.hero h1 {
+    font-size: 2.3rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Kartu Konten */
+main {
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    padding: 25px 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 6px rgba(30, 41, 59, 0.08);
+}
+
+.card h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #94a3b8;
+    padding-bottom: 8px;
+}
+
+/* Daftar Biodata */
+.biodata-list {
+    list-style: none;
+}
+
+.biodata-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #cbd5e1;
+    color: #334155;
+}
+
+.biodata-list li strong {
+    color: #0f172a;
+}
+
+.biodata-list li:last-child {
+    border-bottom: none;
+}
+
+/* Kotak Keahlian */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+.skill-item {
+    background-color: #e2e8f0;
+    color: #1e3a8a;
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+    border-left: 4px solid #2563eb;
+}
+
+/* Tombol Kontak Biru & Abu-abu */
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.contact-btn {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-blue {
+    background-color: #2563eb;
+}
+
+.btn-blue:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-gray {
+    background-color: #475569;
+}
+
+.btn-gray:hover {
+    background-color: #334155;
+}
+
+/* Footer */
+footer {
+    background-color: #334155;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
